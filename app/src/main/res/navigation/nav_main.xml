@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fg_home"
+    android:id="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/fg_home"
+        android:name="com.softsquared.template_kotlin_clean_advanced.views.HomeFragment"
+        android:label="HOME"
+        tools:layout="@layout/fragment_home"
+        />
+
+</navigation>
